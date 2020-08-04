@@ -2,7 +2,7 @@
 
 `fmt::Debug` hardly looks compact and clean, so it is often advantageous to
 customize the output appearance. This is done by manually implementing
-[`fmt::Display`][fmt], which uses the `{}` print marker. Implementing it
+[`fmt::Display`][display], which uses the `{}` print marker. Implementing it
 looks like this:
 
 ```rust
@@ -123,6 +123,7 @@ Debug: Complex { real: 3.3, imag: 7.2 }
 
 [derive]: ../../trait/derive.md
 [fmt]: https://doc.rust-lang.org/std/fmt/
+[display]: https://doc.rust-lang.org/std/fmt/trait.Display.html
 [macros]: ../../macros.md
 [structs]: ../../custom_types/structs.md
 [traits]: ../../trait.md
